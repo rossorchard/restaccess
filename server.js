@@ -7,7 +7,13 @@ request("http://ec2-13-239-37-120.ap-southeast-2.compute.amazonaws.com:9000/api/
 	console.log("body: ", body);
 });
 
+console.log("arguments are");
+process.argv.forEach(function(val){
+	console.log("arg: " + val);
+});
 
+
+console.log("argc: " + process.argc);
 
 
 
