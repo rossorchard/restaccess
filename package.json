@@ -1,0 +1,24 @@
+{
+  "name": "restaccess",
+  "version": "0.0.1",
+  "description": "Module to access Restful API",
+  "main": "routine.js",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rossorchard/restaccess.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rossorchard/restaccess/issues"
+  },
+  "homepage": "https://github.com/rossorchard/restaccess#readme"
+}

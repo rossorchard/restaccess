@@ -2,7 +2,7 @@
 
 var entities = [{ id: "3k2l12ek", pwd: "ddd"}, {id: "lk3jkl2", pwd: "ggg"}];
 
-var tabbles = ["bills", "spend", "receive", "invoice"];
+var tables = ["bills", "spend", "receive", "invoice"];
 
 
 function endpoint( entityId, entityPwd ){
